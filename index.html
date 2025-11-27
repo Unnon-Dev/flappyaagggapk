@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Flappy Aaggg</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: url('assets/bg1.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    background: rgba(0,0,0,0.7);
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,255,255,0.4);
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    color: #ff8800;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #d1d1d1;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .download-btn {
+    background: #00eaff;
+    color: black;
+    padding: 12px 22px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s;
+  }
+
+  .download-btn:hover {
+    background: #00c7d4;
+  }
+</style>
+<script>
+  function startDownload() {
+    window.location.href = "https://drive.google.com/uc?export=download&id=1M_acI6rLg2dWVVemSwemxz_ygHzL7PuD";
+  }
+</script>
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="assets/logo.png" alt="Game Logo">
+    <h1>Flappy Aaggg</h1>
+    <p>Tap the button below to download the game.</p>
+    <button class="download-btn" onclick="startDownload()">Download Now</button>
+  </div>
+</body>
+</html>
